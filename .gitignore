@@ -54,3 +54,5 @@ dkms.conf
 # Own modifications
 *.vscode
 *.DS_Store
+*.txt
+/ctc/archivos

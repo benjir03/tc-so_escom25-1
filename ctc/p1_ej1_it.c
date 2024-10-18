@@ -3,7 +3,7 @@
 
 #define MAX 50
 
-void subcadenas (char cadena[], int tam) {
+void subCadenas (char cadena[], int tam) {
     printf("Subcadenas de '%s':\n",cadena);
     for(int k = 0; k < tam; k++) {
         printf("\n");
@@ -49,10 +49,9 @@ int main() {
     scanf("%s",cadena);
     tam = strlen(cadena);
 
-    printf("%s",cadena); // test
     printf("\nTamaño de la cadena: %d\n",tam); //tamaño
 
-    subcadenas(cadena,tam);
+    subCadenas(cadena,tam);
     prefijos(cadena,tam);
     sufijos(cadena,tam);
     return 0;

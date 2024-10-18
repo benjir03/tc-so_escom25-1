@@ -94,7 +94,7 @@ int main () {
     int r = 0;
     printf("¿Desea guardar el archivo?  1/0\n");
     scanf("%d",&r);
-    if(r==1)guardar(n);
+    if(r)guardar(n);
     }
     return 0;
 }
